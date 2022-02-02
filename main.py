@@ -14,7 +14,8 @@ def songList():
     
     for track in sp.playlist_tracks(pURI)["items"]:
         track_name = track["track"]["name"]
-        f.write(track_name + '\n')
+        artist_name = track["track"]["artists"][0]["name"]
+        f.write(track_name + " - " + artist_name + '\n')
 
     print('epic')
 
