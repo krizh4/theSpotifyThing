@@ -2,8 +2,8 @@
 
 The Spotify Thing is still developing
 
-this extract all the song names in the given playlist and store it in .txt file
-now you can download them too
+this extract all the song names in the given playlist and store it in .txt file.  
+now you can download them too.
 
 simple as ..   
 ### installation an usage guide
